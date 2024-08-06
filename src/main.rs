@@ -6,7 +6,7 @@ use std::io::{self, Read};
 
 fn main() -> io::Result<()> {
     // Get the system path for the .tar.gz file
-    let file_path = env::current_dir()?.join("reports/SBAdGroup/279997670699474.gz"); // Update with your file name
+    let file_path = env::current_dir()?.join("reports/SBAdGroup/280339202921401.gz"); // Update with your file name
     match read_gz(file_path.to_str().unwrap()) {
         Ok(json) => {
             println!("Decoded JSON: {:?}", json);

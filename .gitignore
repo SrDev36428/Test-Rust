@@ -1,5 +1,6 @@
 #build file
 /target
+/reports
 
 # VS code
 .vscode
